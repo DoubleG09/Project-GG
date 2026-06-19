@@ -1,0 +1,30 @@
+.box{
+    background-color: WHITE;
+     position: absolute;
+     color: BLACK;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     border-radius: 10px;
+     height: fit-content;
+     flex-direction: column;}
+.avatar{
+    top: 5vh;
+    left: 5vw;
+    width: 15vw;
+    height: 25vh;
+}
+.name{
+    top: 5vh;
+    left: 25vw;
+    width: 50vw;
+    height: 15vh;
+}
+.center{
+    top: 25vh;  
+    right: 50vw;
+    transform: translate(50%, 0%);
+    width: 50vw;
+    height: 50vh;
+}
